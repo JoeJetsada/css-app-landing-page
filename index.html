@@ -1,13 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style-im.css" />
     <title>Acme App</title>
   </head>
   <body>
-    <!-- Start Coding Here -->
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <div class="contact__container">
+        <h2 class="contact__title">Get in Touch</h2>
+
+        <form class="contact__form" action="#" method="post">
+          <div class="contact__field">
+            <label class="contact__label" for="name">Name</label>
+            <input
+              class="contact__input"
+              type="text"
+              id="name"
+              name="name"
+              placeholder="John Doe"
+            />
+          </div>
+
+          <div class="contact__field">
+            <label class="contact__label" for="email">Email</label>
+            <input
+              class="contact__input"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="john@example.com"
+            />
+          </div>
+
+          <div class="contact__field">
+            <label class="contact__label" for="message">Message</label>
+            <textarea
+              class="contact__textarea"
+              id="message"
+              name="message"
+              placeholder="Your message..."
+            ></textarea>
+          </div>
+
+          <button class="contact__button" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container">
+        <p class="footer__copyright">Acme productivity app &copy;2024</p>
+
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a href="#faq" class="footer__link">FAQ</a>
+          </li>
+          <li class="footer__item">
+            <a href="#terms" class="footer__link">Terms</a>
+          </li>
+          <li class="footer__item">
+            <a href="#ai-policy" class="footer__link">AI Policy</a>
+          </li>
+          <li class="footer__item">
+            <a href="#pricing" class="footer__link">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
